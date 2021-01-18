@@ -28,9 +28,9 @@ export const Routes = () => (
           key={index}
           path={route.path}
           exact={route.exact}
-          >
-            <route.Component />
-          </Route>
+        >
+          <route.Component />
+        </Route>
       ))}
     </Switch>
   </Router>
